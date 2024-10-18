@@ -100,3 +100,69 @@ body {
   margin-top: 10px;
   display: none;
 }
+
+
+
+/* General Mobile Styles */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+  .card {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+  }
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .search button {
+    width: 100%;
+    padding: 10px;
+  }
+  .error, .weather {
+    text-align: center;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col {
+    margin: 10px 0;
+  }
+}
+
+/* High Resolution Mobile Devices */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  body {
+    font-size: 18px;
+  }
+  .card {
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+  }
+  .search-bar {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+  .search button {
+    width: 100%;
+    padding: 12px;
+  }
+  .error, .weather {
+    text-align: center;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col {
+    margin: 12px 0;
+  }
+}
