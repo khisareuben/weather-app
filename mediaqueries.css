@@ -1,15 +1,6 @@
 @media screen and (max-width: 600px) {
 
   .search input {
-    border: 0;
-    outline: 0;
-    background: #ebfffc;
-    color: #555;
-    padding: 10px 25px;
-    height: 60px;
     width: 220px;
-    border-radius: 30px;
-    margin-right: 16px;
-    font-size: 18px;
   }
 }
